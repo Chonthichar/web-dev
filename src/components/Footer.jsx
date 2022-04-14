@@ -46,13 +46,13 @@ function Footer() {
                                     reserved</p>
                             </div>
 
-                            <div className='col '>
-                                <ul className='social-icons-footer'>
-                                    <li><a href="#" className='facebook'><FaFacebook className='icos'/></a></li>
-                                    <li><a href="#" className='instagram'><FaInstagram className='icos'/></a></li>
-                                    <li><a href="#" className='linkined'><FaLinkedin className='icos'/></a></li>
-                                </ul>
-                            </div>
+                            {/*<div className='col '>*/}
+                            {/*    <ul className='social-icons-footer'>*/}
+                            {/*        <li><a href="#" className='facebook'><FaFacebook className='icos'/></a></li>*/}
+                            {/*        <li><a href="#" className='instagram'><FaInstagram className='icos'/></a></li>*/}
+                            {/*        <li><a href="#" className='linkined'><FaLinkedin className='icos'/></a></li>*/}
+                            {/*    </ul>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
 

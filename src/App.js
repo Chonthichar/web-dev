@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Explore from "./pages/Explore";
+// import Footer from "./components/Footer"
 
 
 

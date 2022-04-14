@@ -1691,7 +1691,7 @@ p {
     margin-left: 9rem;
     margin-right: auto;
     color: white;
-    border-bottom: solid 2px white;
+    /*border-bottom: solid 2px white;*/
 }
 
 .copy {
@@ -2338,6 +2338,9 @@ p {
         height: 600px;
         position: relative;
         background-color: white;
+    }
+    .footer-box {
+        /*width: 20%;*/
     }
 }
 

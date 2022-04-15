@@ -58,7 +58,11 @@ function Navbar({title}) {
 
                             <li fill={locationMatchRoute('/') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px'
                                 className='itemsNav'>
-                                <Link to={{pathname: 'https://web-dev-eta.vercel.app/'}} target="_blank">Home</Link>
+                                {/*<Link to={{pathname: 'https://web-dev-eta.vercel.app/'}} target="_blank">Home</Link>*/}
+                                 <HashLink to="/#home">Home</HashLink>
+                                <Routes>
+                                    <Route path="/VideoBg" component={VideoBg} />
+                                </Routes>
                             </li>
 
                             <li fill={locationMatchRoute('/about') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'

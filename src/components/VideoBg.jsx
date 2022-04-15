@@ -199,7 +199,7 @@ function VideoBg() {
 
     return (
         <>
-            <div className='home-container'>
+            <div className='home-container' id='home'>
                 <img src={Pink} alt="backgroundpink" className='dec-3'/>
                 <img src={Pho} alt="photo_2" className='dec-1'/>
                 <img src={Pho} alt="photo_2" className='dec-2'/>

@@ -1,11 +1,14 @@
-import {useNavigate, useLocation} from "react-router-dom";
+import {useNavigate, useLocation, Routes, Route} from "react-router-dom";
 import {useEffect, useState} from "react";
 import {Button, Container, Nav, NavDropdown} from "react-bootstrap";
 import PropTypes from 'prop-types'
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import VideoBg from "./VideoBg";
 import {FaDropbox} from "react-icons/fa";
 import {FaPeopleCarry} from "react-icons/fa";
+import Navigate from "react-router-dom"
+import {HashLink} from "react-router-hash-link";
 
 
 // import {HomeIcon} from "../assest/icons8-home.gif"
@@ -47,36 +50,39 @@ function Navbar({title}) {
                 {(toggleMenu || screenWidth > 500) && (
                     <div className='navbarItem-container text-center'>
                         <Link to='/' className='navbar-logo'>
-                            <p className='navbar-text'>Web@Dev</p><img src="https://img.icons8.com/plumpy/36/000000/natural-food.png" />
+                            <p className='navbar-text'>Web@Dev</p><img
+                            src="https://img.icons8.com/plumpy/36/000000/natural-food.png"/>
                         </Link>
 
                         <ul className='list'>
+
                             <li fill={locationMatchRoute('/') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px'
                                 className='itemsNav'>
-                                <a onClick={() => navigate('/')}>
-                                    Home
-                                </a>
+                                <Link to={{pathname: 'https://web-dev-eta.vercel.app/'}} target="_blank">Home</Link>
                             </li>
 
                             <li fill={locationMatchRoute('/about') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'
                                 className='itemsNav'>
-                                <a onClick={() => navigate('/about')}>
-                                    About
-                                </a>
+                               <HashLink to="/#projects">Projects</HashLink>
+                                <Routes>
+                                    <Route path="/VideoBg" component={VideoBg} />
+                                </Routes>
                             </li>
 
                             <li fill={locationMatchRoute('/blog') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'
                                 className='itemsNav'>
-                                <a onClick={() => navigate('/blog')}>
-                                    Blogs
-                                </a>
+                                <HashLink to="/#services">Services</HashLink>
+                                <Routes>
+                                    <Route path="/VideoBg" component={VideoBg} />
+                                </Routes>
                             </li>
 
                             <li fill={locationMatchRoute('/offer') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'
                                 className='itemsNav'>
-                                <a onClick={() => navigate('/offer')}>
-                                    Offers
-                                </a>
+                                <HashLink to="/#main-contact">Contact</HashLink>
+                                <Routes>
+                                    <Route path="/VideoBg" component={VideoBg} />
+                                </Routes>
                             </li>
 
                             <li fill={locationMatchRoute('/contact') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px'
@@ -87,13 +93,19 @@ function Navbar({title}) {
                                     {/*<img*/}
                                     {/*    src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/000000/external-send-essentials-tanah-basah-glyph-tanah-basah.png"*/}
                                     {/*style={{color:'white'}}/>*/}
-                                    <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/30/000000/external-send-contact-flatart-icons-flat-flatarticons.png"/>
+                                    <img
+                                        src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/30/000000/external-send-contact-flatart-icons-flat-flatarticons.png"/>
                                 </a>
                             </li>
 
                             <li fill={locationMatchRoute('/profile') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'
                                 className='itemsNav'>
-                                <a className='profiles' onClick={() => navigate('/profile')} style={{backgroundColor: 'mediumseagreen', margin: '16px', borderRadius: '10px', color: 'white'}}>
+                                <a className='profiles' onClick={() => navigate('/profile')} style={{
+                                    backgroundColor: 'mediumseagreen',
+                                    margin: '16px',
+                                    borderRadius: '10px',
+                                    color: 'white'
+                                }}>
                                     {/*<img src="https://img.icons8.com/color/48/000000/add-user-female.png"/>*/}
                                     {/*         <img src="https://img.icons8.com/small/64/000000/user-location.png"/>*/}
                                     Profile

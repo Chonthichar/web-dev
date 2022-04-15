@@ -34,6 +34,7 @@ import BonBloy from "../asset/bonbon-boy-thinking-about-the-question.jpg"
 import Com from "../asset/Image Container.jpg"
 import Iphone from "../asset/iphone.jpg"
 import Google from "../asset/google.jpg"
+import { HashLink } from 'react-router-hash-link';
 
 //section 6 testimonials said
 
@@ -213,7 +214,9 @@ function VideoBg() {
                 <p>Start by building your business with us.</p>
                 <div className='home-button'>
                     <Button className='button'>
+                        <HashLink to="/#main-contact">
                         Services
+                        </HashLink>
                     </Button>
                 </div>
                 {/* dot*/}
@@ -240,11 +243,11 @@ function VideoBg() {
                     <br/>
                     {/*<br/> <strong>Contact us for more Details</strong>*/}
                     <br/>
-                    <br/> <a onClick={() => navigate('/contact')} className='contact'>FREE! consultation</a></p>
+                    <br/> <HashLink to="/#main-contact" className='contact'>FREE! consultation</HashLink></p>
                 {/*</div>*/}
             </div>
 
-            <div className='background-section3 container-sm'>
+            <div className='background-section3 container-sm' id='projects'>
                 <h1>See our Recent Projects Below..</h1>
                 <p>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage
                     every aspect of your business in one secure platform.</p>
@@ -324,7 +327,7 @@ function VideoBg() {
                 <path fill="rgb(44, 57, 75)" fill-opacity="1"
                       d="M0,96L48,112C96,128,192,160,288,170.7C384,181,480,171,576,154.7C672,139,768,117,864,117.3C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
             </svg>
-            <section className='background-section5'>
+            <section className='background-section5' id='services'>
                 <div className='box container-sm'>
                     <h2 className='head-text'>What we can do for you?</h2>
                     {/*<div className='underline'></div>*/}

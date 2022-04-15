@@ -77,39 +77,40 @@ function Navbar({title}) {
                                 </Routes>
                             </li>
 
-                            <li fill={locationMatchRoute('/offer') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'
-                                className='itemsNav'>
-                                <HashLink to="/#main-contact">Contact</HashLink>
-                                <Routes>
-                                    <Route path="/VideoBg" component={VideoBg} />
-                                </Routes>
-                            </li>
+                            {/*<li fill={locationMatchRoute('/offer') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'*/}
+                            {/*    className='itemsNav'>*/}
+                            {/*    <HashLink to="/#main-contact">Contact</HashLink>*/}
+                            {/*    <Routes>*/}
+                            {/*        <Route path="/VideoBg" component={VideoBg} />*/}
+                            {/*    </Routes>*/}
+                            {/*</li>*/}
 
-                            <li fill={locationMatchRoute('/contact') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px'
-                                className='itemsNav'>
-                                <a onClick={() => navigate('/contact')}>
-                                    {/*<img src="https://img.icons8.com/color/60/000000/user-location.png"/>*/}
-                                    {/*<img src="https://img.icons8.com/doodle/48/000000/mail-contact.png"/>*/}
-                                    {/*<img*/}
-                                    {/*    src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/000000/external-send-essentials-tanah-basah-glyph-tanah-basah.png"*/}
-                                    {/*style={{color:'white'}}/>*/}
-                                    <img
-                                        src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/30/000000/external-send-contact-flatart-icons-flat-flatarticons.png"/>
-                                </a>
-                            </li>
+                            {/*<li fill={locationMatchRoute('/contact') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px'*/}
+                            {/*    className='itemsNav'>*/}
+                            {/*    <a onClick={() => navigate('/contact')}>*/}
+                            {/*        /!*<img src="https://img.icons8.com/color/60/000000/user-location.png"/>*!/*/}
+                            {/*        /!*<img src="https://img.icons8.com/doodle/48/000000/mail-contact.png"/>*!/*/}
+                            {/*        /!*<img*!/*/}
+                            {/*        /!*    src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/000000/external-send-essentials-tanah-basah-glyph-tanah-basah.png"*!/*/}
+                            {/*        /!*style={{color:'white'}}/>*!/*/}
+                            {/*        <img*/}
+                            {/*            src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/30/000000/external-send-contact-flatart-icons-flat-flatarticons.png"/>*/}
+                            {/*    </a>*/}
+                            {/*</li>*/}
 
                             <li fill={locationMatchRoute('/profile') ? '#2c2c2c' : '8f8f8f'} width='36px' height='36px'
                                 className='itemsNav'>
-                                <a className='profiles' onClick={() => navigate('/profile')} style={{
+                                <HashLink to='#main-contact' className='profiles' style={{
                                     backgroundColor: 'mediumseagreen',
                                     margin: '16px',
                                     borderRadius: '10px',
                                     color: 'white'
                                 }}>
-                                    {/*<img src="https://img.icons8.com/color/48/000000/add-user-female.png"/>*/}
-                                    {/*         <img src="https://img.icons8.com/small/64/000000/user-location.png"/>*/}
-                                    Profile
-                                </a>
+                                    contact
+                                </HashLink>
+                                <Routes>
+                                    <Route path="/VideoBg" component={VideoBg} />
+                                </Routes>
                             </li>
                         </ul>
                     </div>

@@ -56,7 +56,7 @@ function Navbar({title}) {
 
                         <ul className='list'>
 
-                            <li fill={locationMatchRoute('/') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px'
+                            <li fill={locationMatchRoute('/') ? '#F08080' : '#FFFFFF'} width='36px' height='36px'
                                 className='itemsNav'>
                                 {/*<Link to={{pathname: 'https://web-dev-eta.vercel.app/'}} target="_blank">Home</Link>*/}
                                  <HashLink to="/#home">Home</HashLink>

@@ -189,9 +189,14 @@ nav a::after {
     position: absolute;
     right: 10px;
     top: 7px;
-    padding: 5px;
+    padding: 17px;
     /*color: #000;*/
-    font-size: 18px;
+    font-size: 40px;
+    background-color: whitesmoke;
+    border: none;
+}
+.btn:hover {
+    background-color: mediumaquamarine;
 }
 
 @media screen and (max-width: 500px) {
@@ -215,6 +220,9 @@ nav a::after {
 
     .btn {
         display: block;
+    }
+    .navbar-logo {
+        /*font-size: 5rem;*/
     }
 }
 

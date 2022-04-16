@@ -434,7 +434,7 @@ function VideoBg() {
                     {/*<h3><a href='https://www.shopify.com/website'>start from 2,999 Baht</a></h3>*/}
                     <h1><strong>SEO easily to search and show on google and <br/> #Safe with SSL</strong></h1>
                     <h6>✔ Toursim Business</h6>
-                    <h6>✔ Clinic, Phamacy, Spa</h6>
+                    {/*<h6>✔ Clinic, Phamacy, Spa</h6>*/}
 
                     {/*<a onClick={() => navigate('/contact')} className='contact'>Contact Us</a>*/}
                 </div>

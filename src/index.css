@@ -2051,13 +2051,14 @@ p {
         /*border: solid 1px black;*/
         width: 100%;
         padding-left: 15px;
-        font-size: 23px;
+        font-size: 21px;
         padding-right: 0;
     }
 
     .background-section4-step3 .blogs-text h6 {
+        margin-top: 1rem;
         /*margin-top: 1rem;*/
-        /*padding-top: 10px;*/
+        padding-top: 10px;
         /*line-height: 10px;*/
     }
 
@@ -2283,7 +2284,7 @@ p {
     }
 
     .content-center .quote {
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
         justify-content: center;
         /*border: 1px solid black;*/
@@ -2291,6 +2292,7 @@ p {
         padding-right: 20px;
         padding-top: 0;
         margin: 0;
+        margin-top: 1rem;
         line-height: 1.5rem;
         /*background-color: darkseagreen;*/
     }

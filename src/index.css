@@ -10,14 +10,6 @@
     stage: 0;
 }
 
-:root {
-    --bs-body-bg: #82a8ee;
-    --bs-body-color: #97adc6;
-}
-
-.category {
-    color: #f4a261;
-}
 
 * {
     box-sizing: border-box;
@@ -35,7 +27,6 @@ body, html {
 :root {
     --navi-background-color: #f0f6ff;
     --navi-border-radius: 0.25rem;
-
     --navi-anchor-padding: 1.5rem;
 }
 
@@ -65,8 +56,6 @@ nav {
     height: 10px;
     cursor: pointer;
     /*opacity: 0.9;*/
-
-
 }
 
 .navbarItem-container {
@@ -75,7 +64,7 @@ nav {
     align-items: center;
     /*height: 80px;*/
     /*max-width: 1500px;*/
-    background: white;
+    background:  linear-gradient(to right, rgba(255, 99, 71, 0.4) , rgba(255,255,255, 0.9) 69%);
 }
 
 .navbar-logo {
@@ -134,6 +123,7 @@ nav a {
 nav a:hover {
     /*background-color: white;*/
     color: black;
+    font-weight: 700;
 }
 
 nav a:focus::after,
@@ -199,7 +189,7 @@ nav a::after {
     background-color: mediumaquamarine;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .list {
         flex-direction: column;
         height: auto;
@@ -349,10 +339,8 @@ video {
     z-index: 0;
     /*-o-object-fit: cover;*/
     top: 8rem;
-    left: 40rem;
+    left:50%;
     border-radius: 24px;
-
-
 }
 
 .dec-1 {
@@ -448,8 +436,6 @@ video {
     justify-content: center;
     /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
     object-fit: contain;
-
-
 }
 
 .home-container > h1 {
@@ -457,7 +443,7 @@ video {
     position: absolute;
     width: 513px;
     height: 216px;
-    left: 8rem;
+    left: 15%;
     top: 10rem;
     /*font-family: 'Poppins';*/
     font-style: normal;
@@ -473,8 +459,8 @@ video {
     position: absolute;
     width: 50%;
     height: 32px;
-    top: 25rem;
-    left: 2rem;
+    top: 60%;
+    left: 1%;
     margin-top: 8px;
     font-size: 1.5rem;
     color: rgba(85, 105, 135, 1);
@@ -531,13 +517,13 @@ video {
     /*text-align: left;*/
     color: rgba(255, 255, 255, 1);
     background-color: mediumseagreen;
-    top: 30rem;
+    top: 68%;
     /*background-color: white;*/
     z-index: 2;
     display: flex;
     padding: 1rem;
     font-size: 1rem;
-    left: 8rem;
+    left: 20%;
     text-align: center;
     /*justify-content: left;*/
     width: 10%;
@@ -560,7 +546,7 @@ video {
 
 /*background section-2*/
 .background-section2 {
-    height: 600px;
+    height: 580px;
     width: 80%;
     background-color: #adb5bd;
     top: 0;
@@ -701,7 +687,7 @@ p {
     text-align: left;
     padding-top: 7rem;
     width: 70%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: white;
     margin-bottom: 0;
     display: inline-block;
@@ -1798,7 +1784,7 @@ p {
 
 
 /*media query*/
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .navbarItem-container {
         justify-content: left;
         align-items: flex-start;
@@ -2353,8 +2339,76 @@ p {
 }
 
 
+/*media query for ipad Air*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1){
+    .background-video {
+        left: 45%;
+        width: 50%;
+        height: 30%;
+    }
+}
+
+/*for lanscape screen of iphone s6*/
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .background-video {
+        left: 45%;
+        width: 50%;
+        height: 30%;
+    }
+}
+/*for galaxy s9 /s+*/
+
+/**/
 
 
 
-
+@-moz-document url-prefix() {
+    .navbarItem-container {
+        font-size: 1.5rem;
+    }
+    .home-container > h1 {
+        font-size: 6rem;
+    }
+    .home-container > p{
+        font-size: 2rem;
+        left: 5%;
+    }
+    .btn {
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    .background-section2 {
+        height: 450px;
+    }
+    .background-section2 h1{
+        font-size: 4rem;
+    }
+    .background-section2 .content-sec2 {
+        font-size: 1.5rem;
+    }
+    .background-section7-discount  {
+        height: 300px;
+    }
+    .contacts {
+        left: 35%;
+        font-size: 1.5rem;
+    }
+    .main-contact .containers{
+        height: 600px;
+    }
+    .copy {
+        font-size: 2rem;
+    }
+    .copy-right {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
 

@@ -211,7 +211,7 @@ function VideoBg() {
                 </video>
 
                 <h1>Looking for a beautiful Website?</h1>
-                <p>Start by building your business with us.</p>
+                <p>Start building your business with us.</p>
                 <div className='home-button'>
                     <Button className='button'>
                         <HashLink to="/#main-contact">

@@ -9,7 +9,7 @@ import {Button} from "react-bootstrap";
 import Health from "../asset/health-care.png"
 import E_learning from "../asset/e-learning.png"
 // import {FaPen} from "react-icons/fa";
-import {FaFacebook} from "react-icons/fa";
+import {FaFacebook, FaLine, FaPhone} from "react-icons/fa";
 import {FaLinkedin} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 import {FaArrowLeft} from "react-icons/fa";
@@ -545,6 +545,13 @@ function VideoBg() {
                             <a href="https://www.facebook.com/chonthichar.soythong/"><FaFacebook className='ico'/></a>
                             <a href="https://www.instagram.com/chonthicharsoythong/"><FaInstagram className='ico'/></a>
                         </div>
+
+                           {/*<div className='copys'>*/}
+                           {/*     <p className='copy'><FaHome className='phone'/> Hua Hin Thailand 77110</p>*/}
+                           {/*     <p className='copy'><FaPhone className='phone'/>+66 871651655</p>*/}
+                           {/*     <p className='copy'>chonthichar.soythong@gmail.com</p>*/}
+                           {/*     <p className='copy'><FaLine className='phone'/>0871651655</p>*/}
+                           {/* </div>*/}
                     </div>
                 </div>
             </div>

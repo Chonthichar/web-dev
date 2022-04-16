@@ -2186,7 +2186,7 @@ p {
         margin-bottom: 0;
         height: 500px;
         width: 100%;
-        background-color: whitesmoke;
+        /*background-color: whitesmoke;*/
         margin-left: 0;
     }
 
@@ -2293,7 +2293,7 @@ p {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 0;
-        margin-right: 18px;
+        margin-right: 1.5rem;
         margin-left: 18px;
         margin-top: 1rem;
         line-height: 1.5rem;
@@ -2337,7 +2337,7 @@ p {
         min-width: 368px;
         height: 600px;
         position: relative;
-        background-color: white;
+        /*background-color: forestgreen;*/
     }
     .footer-box {
         /*width: 20%;*/

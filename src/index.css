@@ -1191,11 +1191,11 @@ p {
 }
 
 .testimonials-container {
-    width: 1280px;
+    width: 100%;
     min-width: 1280px;
     height: 600px;
     position: relative;
-    background-color: white;
+    background-color: black;
     z-index: 10;
 }
 
@@ -1866,7 +1866,7 @@ p {
         /*position: unset;*/
         /*display: none;*/
         /*width: 10px;*/
-        left: 63%;
+        left: 35%;
         top: 45%;
     }
 
@@ -2337,8 +2337,8 @@ p {
     }
 
     .testimonials-container {
-        width: 400px;
-        min-width: 368px;
+        width: 200px;
+        /*min-width: 368px;*/
         height: 600px;
         position: relative;
         /*background-color: forestgreen;*/

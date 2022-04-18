@@ -64,7 +64,7 @@ nav {
     align-items: center;
     /*height: 80px;*/
     /*max-width: 1500px;*/
-    background:  linear-gradient(to right, rgba(255, 99, 71, 0.4) , rgba(255,255,255, 0.9) 69%);
+    background: linear-gradient(to right, rgba(255, 99, 71, 0.4), rgba(255, 255, 255, 0.9) 69%);
 }
 
 .navbar-logo {
@@ -185,6 +185,7 @@ nav a::after {
     background-color: whitesmoke;
     border: none;
 }
+
 .btn:hover {
     background-color: mediumaquamarine;
 }
@@ -212,6 +213,7 @@ nav a::after {
         display: block;
         height: 4rem;
     }
+
     .navbar-logo {
         /*font-size: 5rem;*/
     }
@@ -340,7 +342,7 @@ video {
     z-index: 0;
     /*-o-object-fit: cover;*/
     top: 8rem;
-    left:50%;
+    left: 50%;
     border-radius: 24px;
 }
 
@@ -1191,11 +1193,11 @@ p {
 }
 
 .testimonials-container {
-    width: 70%;
-    /*min-width: 1280px;*/
+    width: 100%;
+    min-width: 300px;
     height: 600px;
     position: relative;
-    background-color: black;
+    /*background-color: black;*/
     z-index: 10;
 }
 
@@ -1206,7 +1208,7 @@ p {
     position: absolute;
     display: inline-flex;
     width: 100px;
-    height: 1.9rem;
+    height: 1rem;
     align-items: center;
     justify-content: center;
     bottom: 0;
@@ -2069,9 +2071,10 @@ p {
         width: 80px;
         margin-left: 65%;
     }
+
     .background-section7-discount {
-    height: 400px;
-         }
+        height: 400px;
+    }
 
     .background-section7-discount .blogs-text h1 {
         font-size: 22px;
@@ -2083,6 +2086,7 @@ p {
         font-size: 28px;
         padding-right: 20px;
     }
+
     .background-section7-discount .blogs-text .contacts {
         width: 50%;
         margin-left: auto;
@@ -2100,7 +2104,7 @@ p {
         width: 100%;
     }
 
-  .main-contact  .copys {
+    .main-contact .copys {
         /*border: solid 2px white;*/
         width: 100%;
         /*float: left;*/
@@ -2192,22 +2196,22 @@ p {
         width: 100%;
         /*background-color: whitesmoke;*/
         margin-left: 0;
-        display: none;
+        /*display: none;*/
     }
 
     .profile-image {
         margin-left: 50%;
         padding-left: 0;
-        width: 150px;
+        width: 100px;
         height: 200px;
         align-items: center;
     }
 
     .profile-image:after {
-    width: 200px;
-    height: 200px;
-    background: honeydew;
-    left: 10rem;
+        width: 200px;
+        height: 200px;
+        background: honeydew;
+        left: 10rem;
 
 
     }
@@ -2215,7 +2219,7 @@ p {
 
     .profile-image ul img {
         height: 200px;
-        width: 150px;
+        width: 100px;
         /*box-shadow: 0px 0px 30px rgba(0, 0, 10, 0.25);*/
 
     }
@@ -2229,7 +2233,7 @@ p {
 
     .profile-image .img {
         height: 200px;
-        width: 150px;
+        width: 100px;
         /*float: right;*/
         /*width: 100%;*/
         /*border: solid 10px black;*/
@@ -2330,9 +2334,11 @@ p {
         padding: 2px;
         /*font-size: 4rem;*/
     }
+
     .arrows-left {
         left: 10%;
     }
+
     .arrow-right {
         left: 75%;
     }
@@ -2344,6 +2350,7 @@ p {
         position: relative;
         /*background-color: forestgreen;*/
     }
+
     .footer-box {
         /*width: 20%;*/
     }
@@ -2352,9 +2359,9 @@ p {
 
 /*media query for ipad Air*/
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1){
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
     .background-video {
         left: 45%;
         width: 50%;
@@ -2364,20 +2371,20 @@ p {
 
 /*for lanscape screen of iphone s6*/
 @media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
     .background-video {
         left: 45%;
         width: 50%;
         height: 30%;
     }
 }
+
 /*for galaxy s9 /s+*/
 
 /**/
-
 
 
 @-moz-document url-prefix() {
@@ -2387,7 +2394,7 @@ p {
     .home-container > h1 {
         font-size: 6rem;
     }
-    .home-container > p{
+    .home-container > p {
         font-size: 2rem;
         left: 5%;
     }
@@ -2398,20 +2405,20 @@ p {
     .background-section2 {
         height: 450px;
     }
-    .background-section2 h1{
+    .background-section2 h1 {
         font-size: 4rem;
     }
     .background-section2 .content-sec2 {
         font-size: 1.5rem;
     }
-    .background-section7-discount  {
+    .background-section7-discount {
         height: 300px;
     }
     .contacts {
         left: 35%;
         font-size: 1.5rem;
     }
-    .main-contact .containers{
+    .main-contact .containers {
         height: 600px;
     }
     .copy {

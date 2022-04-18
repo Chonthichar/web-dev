@@ -1086,7 +1086,8 @@ p {
     border: none;
     border-bottom: 1px solid #d1d2d4;
     outline: none;
-    /*color: black;*/
+    color: black;
+    
 }
 
 .containers .form-area form input::placeholder {

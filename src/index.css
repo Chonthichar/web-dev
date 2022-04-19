@@ -1087,7 +1087,7 @@ p {
     border-bottom: 1px solid #d1d2d4;
     outline: none;
     color: black;
-    
+
 }
 
 .containers .form-area form input::placeholder {
@@ -2344,11 +2344,11 @@ p {
     }
 
     .arrows-left {
-        left: 10%;
+        left: 5%;
     }
 
     .arrow-right {
-        left: 75%;
+        left: 78%;
     }
 
     .testimonials-container {
@@ -2377,6 +2377,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 }
 
+
 /*for lanscape screen of iphone s6*/
 @media only screen
 and (min-device-width: 414px)
@@ -2386,15 +2387,37 @@ and (orientation: landscape) {
     .background-video {
         left: 45%;
         width: 50%;
-        height: 30%;
+        height: 60%;
     }
 }
 
 /*for galaxy s9 /s+*/
 
-/**/
+/*iphone 5 and 5s*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .background-video {
+        /*left: 45%;*/
+        width: 80%;
+        height: 80%;
+        left: 10%;
+        right: 10%
+    }
+    .home-container  h1 {
+        font-size: 10px;
+    }
+    .home-container{
+
+    }
+}
 
 
+
+
+/*For fire fox*/
 @-moz-document url-prefix() {
     .navbarItem-container {
         font-size: 1.5rem;

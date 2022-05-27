@@ -1051,6 +1051,7 @@ p {
 .containers .form-area {
     display: flex;
     width: 50%;
+    /*height: 80vh;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2564,19 +2565,34 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 /**media query*!*/
 @media (max-height: 580px) {
+    .copy-rights {
+
+    }
+    .main-contact {
+        height: 100%;
+    }
+    .main-contact .containers{
+        height: 180vh;
+    }
+    .containers .form-area h2 {
+        font-size: 30px;
+    }
     .home-container > h1 {
         font-size: 40px;
         line-height: 2.6rem;
         width: 40%;
         top: 6rem;
+        float: left;
+        left: 8%;
     }
 
     .home-container > p {
-        top: 13rem;
+        top: 14rem;
         font-size: 18px;
-        width: 30%;
-        text-align: center;
-        margin-left: 2rem;
+        width: 100%;
+        text-align: left;
+        left: 0;
+        /*margin-left: 2rem;*/
     }
 
     .background-video {
@@ -2588,13 +2604,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .button {
-        top: 140%;
-        font-size: 16px;
-        padding: 2px;
+        top: 110%;
+        font-size: 18px;
+        padding: 0px;
         /*height: 10px;*/
         width: 30%;
         line-height: 0;
-        left: 30%;
+        /*margin-top: 1rem;*/
+        left: 8%;
     }
 
     .dec-1 {
@@ -2722,7 +2739,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .copy-rights {
-        width: 200%;
+        width: 100%;
         /*border: 1px solid red;*/
         padding: 0;
     }

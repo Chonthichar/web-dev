@@ -383,8 +383,8 @@ video {
     background-size: cover;
     /*z-index: -1;*/
     /*clear: right;*/
-    width: 15%;
-    height: 350px;
+    width: 12%;
+    height: 30%;
     position: absolute;
     margin-left: 15rem;
     margin-top: 1rem;
@@ -394,8 +394,8 @@ video {
 .dec-6 {
     float: right;
     clear: right;
-    width: 30%;
-    height: 350px;
+    width: 25%;
+    height: 270px;
     margin-left: auto;
     display: inline-flex;
     left: auto;
@@ -460,10 +460,10 @@ video {
 
 .home-container > p {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 32px;
-    top: 60%;
-    left: 1%;
+    top: 70%;
+    /*left: 1%;*/
     margin-top: 8px;
     font-size: 1.5rem;
     color: rgba(85, 105, 135, 1);
@@ -520,7 +520,7 @@ video {
     /*text-align: left;*/
     color: rgba(255, 255, 255, 1);
     background-color: mediumseagreen;
-    top: 68%;
+    top: 80%;
     /*background-color: white;*/
     z-index: 2;
     display: flex;
@@ -635,7 +635,7 @@ video {
 
 p {
     font-size: 1rem;
-    padding-left: 2.3rem;
+    padding-left: 2rem;
     text-align: center;
 }
 
@@ -720,7 +720,7 @@ p {
     width: 95%;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 20px;
     line-height: 30px;
     text-align: center;
     color: #556987;
@@ -955,7 +955,7 @@ p {
 
 .process p {
     text-align: left;
-    font-size: 1rem;
+    font-size: 18px;
     color: lightgray;
     font-style: normal;
     /*font-family: 'Poppins';*/
@@ -1375,15 +1375,23 @@ p {
 }
 
 .content-center .quote {
-    font-size: 1rem;
+    font-size: 16px;
     letter-spacing: 0.88px;
-    line-height: 40px;
+    /*line-height: 40px;*/
     font-weight: unset;
     margin-bottom: 16px;
     color: #1f2937;
-    float: left;
-    text-align: left;
-    justify-content: left;
+    /*float: left;*/
+    /*left: 30rem;*/
+    /*border: 1px solid red;*/
+    float: right;
+    justify-content: right;
+    right: 0;
+    /*text-align: right;*/
+    padding: 0;
+    width: 100%;
+    /*text-align: left;*/
+    /*justify-content: left;*/
     /*background-color: #f1c40f;*/
 
 }
@@ -1409,8 +1417,9 @@ p {
 .background-section4-step1 {
     background: whitesmoke;
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
+
 
 .blogs-text h1 {
     color: cornflowerblue;
@@ -1431,7 +1440,7 @@ p {
 
 .blogs-text h6 {
     color: black;
-    font-size: 1rem;
+    font-size: 16px;
     width: 70%;
     padding-left: 5rem;
     line-height: 1.5rem;
@@ -1443,7 +1452,7 @@ p {
 .background-section4-step2 {
     background: white;
     width: 100%;
-    height: 500px;
+    height: 100%;
     /*justify-content: right;*/
     /*text-align: right;*/
     padding-right: 5rem;
@@ -1473,7 +1482,7 @@ p {
 .background-section4-step3 {
     background-color: whitesmoke;
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .background-section4-step3 h1 {
@@ -1604,10 +1613,10 @@ p {
         height: 100px;
         width: 100px;
     }
+
     /*.main-contact {*/
     /*    height:  100px;*/
     /*}*/
-
     .main-contact .containers {
         width: 98%;
         height: auto;
@@ -1719,7 +1728,7 @@ p {
 }
 
 .copy-right {
-    width: 70%;
+    width: 100%;
     /*background-color: white;*/
     padding-left: 0;
     /*margin-left: auto;*/
@@ -1887,8 +1896,9 @@ p {
     .home-button .button {
         width: 30%;
         left: 33%;
-        padding: 0;
+        /*padding: 10px;*/
         top: 35%;
+
     }
 
     .background-section2 h1 {
@@ -2370,94 +2380,356 @@ p {
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 1) {
-    .background-video {
-        left: 45%;
+    .home-container > h1 {
+        font-size: 60px;
+        line-height: 3.5rem;
+        width: 40%;
+        top: 6rem;
+        left: 10%;
+    }
+
+    .home-container > p {
+        top: 17rem;
+        font-size: 30px;
         width: 50%;
-        height: 30%;
+        text-align: center;
+        margin-left: 0rem;
+        left: 0;
+    }
+
+    .background-video {
+        top: 5rem;
+        width: 46%;
+        height: 35%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .button {
+        top: 47%;
+        /*top: 140%;*/
+        font-size: 16px;
+        padding: 2px;
+        /*height: 10px;*/
+        width: 30%;
+        line-height: 0;
+        left: 30%;
+    }
+
+    .dec-1 {
+        left: 81%;
+    }
+
+    .background-section2 h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+
+    .background-section2 .content-sec2 {
+        padding-top: 4rem;
+    }
+
+    .content-sec2 .contact {
+        width: 100%;
+        margin-top: 0;
+        display: none;
+        margin-left: 26%;
+    }
+
+    .background-section3 h1 {
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .background-section5 .box .head-text {
+        font-size: 40px;
+    }
+
+    .background-section5 .process-icon {
+        width: 30%;
+    }
+
+    .process h3 {
+        font-size: 30px;
+    }
+
+    .dec-4 {
+        width: 50%;
+        margin-right: 1rem;
+    }
+
+    .blogs-text h2 {
+        font-size: 20px;
+    }
+
+    .strong {
+        /*font-size: 20px;*/
+    }
+
+    .blogs-text {
+        /*height: 100%;*/
+    }
+
+    .dec-5 {
+        width: 20%;
+        height: 13%;
+        margin-top: 5.5rem;
+        margin-left: 3rem;
+    }
+    .main-contact .containers {
+        /*height: 70vh;*/
+        margin-top: 0;
+    }
+    .containers .form-area h2 {
+        font-size: 40px;
+    }
+    .dec-6 {
+        width: 40%;
+        height: 40%;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+
+    .background-section6 {
+        display: none;
+    }
+
+    .image-center {
+        display: none;
+    }
+
+    .profile-image {
+        height: 100%;
+        display: none;
+    }
+
+    .profile-image li .img {
+        display: none;
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .background-section7-discount h1 {
+        font-size: 30px;
+    }
+
+    .blogs-text h2 {
+        /*float: left;*/
+    }
+
+    .contacts {
+        left: 5%;
+        /*margin: 3rem;*/
+        justify-content: center;
+        /*margin-bottom: 5rem;*/
+        align-items: center;
+        text-align: center;
+        /*left: 35%;*/
+        width: 90%;
+    }
+
+    .home-container {
+        height: 100%;
+    }
+
+    .dec-2 {
+        top: 1rem;
+    }
+
+    .svg-back {
+        height: 0;
+    }
+
+    .copy-rights {
+        width: 200%;
+        /*border: 1px solid red;*/
+        padding: 0;
+    }
+
+    .blogs-text h1 {
+        font-size: 40px;
     }
 }
 
-
-/*for lanscape screen of iphone s6*/
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
-    .background-video {
-        left: 45%;
-        width: 50%;
-        height: 60%;
-    }
-}
 
 /*for galaxy s9 /s+*/
 
 /*iphone 5 and 5s*/
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .background-video {
-        /*left: 45%;*/
-        width: 80%;
-        height: 80%;
-        left: 10%;
-        right: 10%
-    }
-    .home-container  h1 {
-        font-size: 10px;
-    }
-    .home-container{
 
-    }
-}
-
-
-
-
-/*For fire fox*/
-@-moz-document url-prefix() {
-    .navbarItem-container {
-        font-size: 1.5rem;
-    }
+/**media query*!*/
+@media (max-height: 580px) {
     .home-container > h1 {
-        font-size: 6rem;
+        font-size: 40px;
+        line-height: 2.6rem;
+        width: 40%;
+        top: 6rem;
     }
+
     .home-container > p {
-        font-size: 2rem;
-        left: 5%;
+        top: 13rem;
+        font-size: 18px;
+        width: 30%;
+        text-align: center;
+        margin-left: 2rem;
     }
-    .btn {
-        height: 4rem;
-        font-size: 1.5rem;
+
+    .background-video {
+        top: 5rem;
+        width: 46%;
+        height: 100%;
+        margin-top: 0;
+        padding-top: 0;
     }
-    .background-section2 {
-        height: 450px;
+
+    .button {
+        top: 140%;
+        font-size: 16px;
+        padding: 2px;
+        /*height: 10px;*/
+        width: 30%;
+        line-height: 0;
+        left: 30%;
     }
+
+    .dec-1 {
+        left: 48%;
+    }
+
     .background-section2 h1 {
-        font-size: 4rem;
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 1rem;
     }
+
     .background-section2 .content-sec2 {
-        font-size: 1.5rem;
+        padding-top: 4rem;
     }
-    .background-section7-discount {
-        height: 300px;
-    }
-    .contacts {
-        left: 35%;
-        font-size: 1.5rem;
-    }
-    .main-contact .containers {
-        height: 600px;
-    }
-    .copy {
-        font-size: 2rem;
-    }
-    .copy-right {
+
+    .content-sec2 .contact {
         width: 100%;
-        font-size: 1.2rem;
+        margin-top: 0;
+        display: none;
+        margin-left: 26%;
+    }
+
+    .background-section3 h1 {
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .background-section5 .box .head-text {
+        font-size: 40px;
+    }
+
+    .background-section5 .process-icon {
+        width: 30%;
+    }
+
+    .process h3 {
+        font-size: 30px;
+    }
+
+    .dec-4 {
+        width: 50%;
+        margin-right: 1rem;
+    }
+
+    .blogs-text h2 {
+        font-size: 20px;
+    }
+
+    .strong {
+        /*font-size: 20px;*/
+    }
+
+    .blogs-text {
+        /*height: 100%;*/
+    }
+
+    .dec-5 {
+        width: 25%;
+        height: 60%;
+        margin-top: 1.5rem;
+        margin-left: 10px;
+    }
+
+    .dec-6 {
+        width: 40%;
+        height: 40%;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+
+    .background-section6 {
+        display: none;
+    }
+
+    .image-center {
+        display: none;
+    }
+
+    .profile-image {
+        height: 100%;
+        display: none;
+    }
+
+    .profile-image li .img {
+        display: none;
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .background-section7-discount h1 {
+        font-size: 30px;
+    }
+
+    .blogs-text h2 {
+        /*float: left;*/
+    }
+
+    .contacts {
+        left: 5%;
+        /*margin: 3rem;*/
+        justify-content: center;
+        /*margin-bottom: 5rem;*/
+        align-items: center;
+        text-align: center;
+        /*left: 35%;*/
+        width: 90%;
+    }
+
+    .home-container {
+        height: 100%;
+    }
+
+    .dec-2 {
+        top: 1rem;
+    }
+
+    .svg-back {
+        height: 0;
+    }
+
+    .copy-rights {
+        width: 200%;
+        /*border: 1px solid red;*/
+        padding: 0;
+    }
+
+    .blogs-text h1 {
+        font-size: 40px;
     }
 }
+
 

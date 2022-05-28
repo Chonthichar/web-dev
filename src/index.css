@@ -2026,6 +2026,7 @@ p {
 
     .background-section4-step2 {
         margin-top: 0rem;
+        height: 100%;
         /*border: 1px solid red;*/
         padding-right: 0;
         height: auto;
@@ -2052,12 +2053,13 @@ p {
 
     .background-section4-step2 .blogs-text h2 {
         width: 50%;
+        height: 100%;
         float: right;
         text-align: left;
         padding: 10px;
         /*padding-right: 10px;*/
         /*border: 1px solid black;*/
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .background-section4-step2 .blogs-text h6 {
@@ -2117,7 +2119,7 @@ p {
     }
 
     .background-section7-discount {
-        height: 400px;
+        height: 380px;
     }
 
     .background-section7-discount .blogs-text h1 {

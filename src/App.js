@@ -8,7 +8,7 @@ import Explore from "./pages/Explore";
 import Thank from "./components/Thank";
 
 // import Footer from "./components/Footer"
-
+    const excludedRoutes = ['/thank'];
 
 function App() {
     return (
@@ -18,12 +18,17 @@ function App() {
                 <Routes>
 
                     <Route path='/' element={<Explore/>}/>
-                    <Route path='/thank' element={<Thank/>}/>
+                    <Route exact path='/thank' element={<Thank/>}/>
 
                 </Routes>
+                {/* eslint-disable-next-line no-restricted-globals */}
                 <Footer/>
             </Router>
             <ToastContainer/>
+            {/* eslint-disable-next-line no-restricted-globals */}
+            {/*  {location.pathname !== '/thank' && <Footer /> }*/}
+            {/* eslint-disable-next-line no-restricted-globals */}
+            {/*{!excludedRoutes.includes(location.pathname) && <Footer/>}*/}
         </>
     )
 }

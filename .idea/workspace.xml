@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f54903e8-2115-43ca-8ae0-28854f6eaf28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Thank.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Thank.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="f54903e8-2115-43ca-8ae0-28854f6eaf28" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,7 @@
       <workItem from="1650248459246" duration="362000" />
       <workItem from="1650364011457" duration="1392000" />
       <workItem from="1653671059261" duration="7346000" />
-      <workItem from="1653722129266" duration="3417000" />
+      <workItem from="1653722129266" duration="3808000" />
     </task>
     <servers />
   </component>

@@ -538,6 +538,8 @@ function VideoBg() {
                             <input type="hidden" name="_captcha" value="false"/>
                             <input type="hidden" name="_template" value="table"/>
                             <textarea name="message" cols="30" rows="5" placeholder="Your Message">
+                                 <input type="hidden" name="_next"
+                                   value="https://web-dev-eta.vercel.app/thank"/>
                   </textarea>
                             <button type="submit">Send Message</button>
                         </form>

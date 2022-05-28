@@ -35,6 +35,8 @@ import Com from "../asset/Image Container.jpg"
 import Iphone from "../asset/iphone.jpg"
 import Google from "../asset/google.jpg"
 import { HashLink } from 'react-router-hash-link';
+import PhotoHealth from '../asset/photo.png'
+import MapApp from '../asset/mapApp.png'
 
 //section 6 testimonials said
 
@@ -239,7 +241,7 @@ function VideoBg() {
                     businesses and organization.
                     We are basically focusing on user-friendly website responsive design and high modern UI and UX
                     styling
-                    that are easy to use by your clients.
+                    that are easy to use for your business.
                     <br/>
                     {/*<br/> <strong>Contact us for more Details</strong>*/}
                     <br/>
@@ -265,11 +267,11 @@ function VideoBg() {
 
                     <div className='cards'>
                         <div className='svg-img'>
-                            <img src={E_learning} alt="photo_1"/>
+                            <img src={PhotoHealth} alt="photo_1"/>
                         </div>
                         <div className='texts'>
                             <h2 className='text-title'>"Check It Out"</h2>
-                            <p className='text-titles'>Recipe Menu</p>
+                            <p className='text-titles'>Personal Blogs</p>
                         </div>
                     </div>
 
@@ -286,12 +288,12 @@ function VideoBg() {
 
                     <div className='cards'>
                         <div className='svg-img'>
-                            <img src={E_learning} alt="photo_1"/>
+                            <img src={MapApp} alt="photo_1"/>
                         </div>
 
                         <div className='texts'>
                             <h2 className='text-title'>"Check It Out"</h2>
-                            <p className='text-titles'>WebApp tracking App</p>
+                            <p className='text-titles'>Tracking App</p>
                         </div>
                     </div>
 
@@ -420,7 +422,7 @@ function VideoBg() {
                     {/*<h3><a href='https://www.shopify.com/website'>start from 2,999 Baht</a></h3>*/}
                     <h2>PC / Tablet / SmartPhone</h2>
                     <h6>✔ Responsive design for all screen</h6>
-                    <h6>✔ Quickly to get into Website</h6>
+                    {/*<h6>✔ Quickly to get into Website</h6>*/}
                     {/*<a onClick={() => navigate('/contact')} className='contact'>Contact Us</a>*/}
                 </div>
             </div>
@@ -507,7 +509,7 @@ function VideoBg() {
                 <div className='blogs-text'>
                     <h1>We provide the best version of your businesses.</h1>
                     {/*<h3><a href='https://www.shopify.com/website'>start from 2,999 Baht</a></h3>*/}
-                    <h2>Start from <strong> (THB) 4,999.- </strong> ...Until 31st May!</h2><h5>(Discount From 8,999.-)</h5>
+                    <h2>Start from <strong> (THB) 4,999.- </strong> ...Until 31st July!</h2><h5>(Discount From 8,999.-)</h5>
                     {/*<p>หน้าแรก ติดต่แผ่าน</p>*/}
 
                     <a onClick={() => navigate('/contact')} className='contacts'>FREE! consultation and

@@ -5,8 +5,9 @@ import 'react-toastify/dist/ReactToastify.css'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Explore from "./pages/Explore";
-// import Footer from "./components/Footer"
+import Thank from "./components/Thank";
 
+// import Footer from "./components/Footer"
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
                 <Navbar/>
                 <Routes>
 
-                        <Route path='/' element={<Explore/>}/>
+                    <Route path='/' element={<Explore/>}/>
+                    <Route path='/thank' element={<Thank/>}/>
 
                 </Routes>
                 <Footer/>

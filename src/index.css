@@ -2037,7 +2037,7 @@ p {
         height: 100%;
         /*border: 1px solid red;*/
         padding-right: 0;
-        height: auto;
+        /*height: auto;*/
         background: white;
         margin-bottom: 6rem;
         /*height: 380px;*/

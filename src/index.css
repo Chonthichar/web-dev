@@ -2514,6 +2514,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .dec-5 {
+        display: none;
         width: 20%;
         height: 13%;
         margin-top: 5.5rem;

@@ -2420,7 +2420,7 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 1) {
     .home-container > h1 {
-        font-size: 60px;
+        font-size: 40px;
         line-height: 3.5rem;
         width: 40%;
         top: 6rem;

@@ -212,7 +212,7 @@ function VideoBg() {
                         type="video/mp4"/>
                 </video>
 
-                <h1>Looking for Websites for business?</h1>
+                <h1>Looking for business's website?</h1>
                 <p>Start growing your business with us.</p>
                 <div className='home-button'>
                     <Button className='button'>

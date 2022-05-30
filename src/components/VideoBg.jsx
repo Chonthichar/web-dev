@@ -236,8 +236,8 @@ function VideoBg() {
                 <h1>Get To Know Us?</h1>
                 {/*<div className='underline'></div>*/}
                 <p className='content-sec2'>We are a team for a web development and Web designer base in Thailand and
-                    work for worldwide.
-                    We provide a new high quality website and improve existing websites for both individuals, small
+                    work worldwide.
+                    We provide a new high quality website and improve existing websites for individual, small
                     businesses and organization.
                     We are basically focusing on user-friendly website responsive design and high modern UI and UX
                     styling that are easy to use for your business.
@@ -331,7 +331,7 @@ function VideoBg() {
                 <div className='box container-sm'>
                     <h2 className='head-text'>What we can do for you?</h2>
                     {/*<div className='underline'></div>*/}
-                    <p className='text-component'>Check Out What fit for your bussiness.</p>
+                    <p className='text-component'>Check Out What fit for your business.</p>
 
 
                     <div className='process'>

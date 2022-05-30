@@ -7,7 +7,7 @@ import react from 'react';
 //     FooterLink,
 //     Heading,
 // } from "./FooterStyle";
-import {FaAddressBook, FaBeer, FaHome, FaKiwiBird} from "react-icons/fa"
+import {FaAddressBook, FaBeer, FaChild, FaHome, FaKiwiBird, FaTwitter} from "react-icons/fa"
 import {FaFacebook} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 import {FaLinkedin} from "react-icons/fa";
@@ -15,6 +15,8 @@ import {FaMap} from "react-icons/fa";
 import {FaMailBulk} from "react-icons/fa";
 import {FaPhone} from "react-icons/fa";
 import {FaLine} from "react-icons/fa";
+import React from 'react';
+import { MDBFooter } from 'mdb-react-ui-kit';
 
 
 function Footer() {
@@ -22,45 +24,123 @@ function Footer() {
 
     return (
         <>
+            <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <div className='me-5 d-none d-lg-block'>
+          <span>Get connected with us on social networks:</span>
+        </div>
 
-            {/*<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">*/}
-            {/*    <path fill="#0A142F" fill-opacity="1"*/}
-            {/*          d="M0,288L48,277.3C96,267,192,245,288,245.3C384,245,480,267,576,240C672,213,768,139,864,138.7C960,139,1056,213,1152,213.3C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>*/}
-            {/*</svg>*/}
+        <div>
+          <a href='' className='me-4 text-reset'>
+            <i className='fab fa-facebook-f'></i>
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <i className='fab fa-twitter'></i>
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <i className='fab fa-google'></i>
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <i className='fab fa-instagram'></i>
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <i className='fab fa-linkedin'></i>
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <i className='fab fa-github'></i>
+          </a>
+        </div>
+      </section>
 
-            <div className='footer'>
-                <div className='footer-box'>
-
-                            {/*<div className='copys'>*/}
-                            {/*    <p className='copy'><FaHome className='phone'/> Hua Hin Thailand 77110</p>*/}
-                            {/*    <p className='copy'><FaPhone className='phone'/>+66 871651655</p>*/}
-                            {/*    <p className='copy'>chonthichar.soythong@gmail.com</p>*/}
-                            {/*    <p className='copy'><FaLine className='phone'/>0871651655</p>*/}
-                            {/*</div>*/}
-
-                    <div className='boxes'>
-                        <div className='row'>
-
-                            <div className='copy-right'>
-                                <p className='copy-rights'>Copyright &copy; {footerYear} All rights
-                                    reserved</p>
-                            </div>
-
-                            {/*<div className='col '>*/}
-                            {/*    <ul className='social-icons-footer'>*/}
-                            {/*        <li><a href="#" className='facebook'><FaFacebook className='icos'/></a></li>*/}
-                            {/*        <li><a href="#" className='instagram'><FaInstagram className='icos'/></a></li>*/}
-                            {/*        <li><a href="#" className='linkined'><FaLinkedin className='icos'/></a></li>*/}
-                            {/*    </ul>*/}
-                            {/*</div>*/}
-                        </div>
-                    </div>
-
-                </div>
+      <section className=''>
+        <div className='container text-center text-md-start mt-5'>
+          <div className='row mt-3'>
+            <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                <i className='fas fa-gem me-3'></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.
+              </p>
             </div>
+
+            <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Angular
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  React
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Vue
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Laravel
+                </a>
+              </p>
+            </div>
+
+            <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Pricing
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Settings
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Orders
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Help
+                </a>
+              </p>
+            </div>
+
+            <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <p>
+                <i className='fas fa-home me-3'></i> New York, NY 10012, US
+              </p>
+              <p>
+                <i className='fas fa-envelope me-3'></i>
+                info@example.com
+              </p>
+              <p>
+                <i className='fas fa-phone me-3'></i> + 01 234 567 88
+              </p>
+              <p>
+                <i className='fas fa-print me-3'></i> + 01 234 567 89
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2021 Copyright:
+        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+          MDBootstrap.com
+        </a>
+      </div>
+    </MDBFooter>
         </>
-
-
     )
 }
 

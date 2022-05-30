@@ -74,7 +74,7 @@ function Footer() {
                                     <i className='fas fa-envelope me-3'></i>
                                     chonthichar</p>
                                 <p>
-                                    <i className='fas fa-phone me-3'></i> +66 87 165 1655
+                                    Telephone: +66 87 165 1655
                                 </p>
                                 <p>
                                     Line: 0 87165 1655

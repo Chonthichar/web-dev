@@ -369,8 +369,8 @@ video {
 .dec-4 {
     float: right;
     clear: right;
-    width: 25%;
-    height: 400px;
+    width: 20%;
+    height: 280px;
     margin-left: auto;
     display: inline-flex;
     left: auto;
@@ -384,10 +384,10 @@ video {
     /*z-index: -1;*/
     /*clear: right;*/
     width: 12%;
-    height: 22%;
+    height: 19%;
     position: absolute;
-    margin-left: 15rem;
-    margin-top: 1rem;
+    margin-left: 16rem;
+    margin-top: 0.3rem;
 
 }
 
@@ -395,11 +395,11 @@ video {
     float: right;
     clear: right;
     width: 25%;
-    height: 270px;
+    height: 180px;
     margin-left: auto;
     display: inline-flex;
     left: auto;
-    margin-top: 1rem;
+    margin-top: 0.2rem;
     margin-right: 10rem;
 }
 
@@ -1960,7 +1960,7 @@ p {
     }
 
     .background-section5 .box .head-text {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .background-section5 .box .text-component {

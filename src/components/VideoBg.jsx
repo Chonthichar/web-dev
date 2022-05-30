@@ -212,8 +212,8 @@ function VideoBg() {
                         type="video/mp4"/>
                 </video>
 
-                <h1>Looking for a beautiful Website?</h1>
-                <p>Start building your business with us.</p>
+                <h1>Looking for Websites for business?</h1>
+                <p>Start growing your business with us.</p>
                 <div className='home-button'>
                     <Button className='button'>
                         <HashLink to="/#main-contact">
@@ -240,8 +240,7 @@ function VideoBg() {
                     We provide a new high quality website and improve existing websites for both individuals, small
                     businesses and organization.
                     We are basically focusing on user-friendly website responsive design and high modern UI and UX
-                    styling
-                    that are easy to use for your business.
+                    styling that are easy to use for your business.
                     <br/>
                     {/*<br/> <strong>Contact us for more Details</strong>*/}
                     <br/>
@@ -251,8 +250,7 @@ function VideoBg() {
 
             <div className='background-section3 container-sm' id='projects'>
                 <h1>See our Recent Projects Below..</h1>
-                <p>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage
-                    every aspect of your business in one secure platform.</p>
+                <p>Let's your website standout for you. Create your business website with us with free consultation.</p>
                 <div className='wrapper'>
                     <div className='cards'>
                         <div className='svg-img'>

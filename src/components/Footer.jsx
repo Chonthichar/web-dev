@@ -70,9 +70,9 @@ function Footer() {
                                 <p>
                                     <i className='fas fa-home me-3'></i> Hua Hin, Thailand 77110
                                 </p>
-                                <p>
+                                <p className='ms-0 p-0'>
                                     <i className='fas fa-envelope me-3'></i>
-                                    chonthichar</p>
+                                    chonthichar1995@gmail.com</p>
                                 <p>
                                     Telephone: +66 87 165 1655
                                 </p>

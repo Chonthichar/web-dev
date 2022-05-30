@@ -31,7 +31,7 @@ function Footer() {
                         <div className='row mt-2'>
                             <div className='col-md-3 col-lg-4 col-xl-3 mx-auto mb-4'>
                                 <h6 className='text-uppercase fw-bold mb-4 text-black text-center '>
-                                    <i className='fas fa-gem w-100  text-center'></i>Make-Web.com
+                                    <i className='fas fa-gem w-100  text-center'></i>www.makeweb.info
                                 </h6>
                                 <p className='fw-light'>
                                     Help your website stand out with beautiful web design, focus on small

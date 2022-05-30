@@ -50,7 +50,7 @@ function Navbar({title}) {
                 {(toggleMenu || screenWidth > 500) && (
                     <div className='navbarItem-container text-center'>
                         <Link to='/' className='navbar-logo'>
-                            <p className='navbar-text'></p><img
+                            <p className='navbar-text text-black fw-light'>makeweb.info</p><img
                             src="https://img.icons8.com/plumpy/36/000000/natural-food.png"/>
                         </Link>
 
